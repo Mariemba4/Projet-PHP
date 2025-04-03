@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e3f2fd;
+}
+
+.battle-container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #90caf9;
+}
+
+.round {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fbf8d6;
+    border-radius: 10px;
+    border: 2px solid #f48fb1;
+}
+
+.pokemon-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.winner {
+    background: #c8e6c9;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #388e3c;
+    border: 2px solid #81c784;
+}
+
+.pokemon-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    background: #fbf8d6;
+    border-radius: 10px;
+    border: 2px solid #fbf8d6;
+}
+
+.pokemon-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #90caf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.winner-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c8e6c9;
+    border: 2px solid #a5eca8;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #75d47a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.winner-img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.damage-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffebee;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #cf6f6f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.damage-box p {
+    margin: 0;
+    width: 45%;
+    text-align: center;
+}
