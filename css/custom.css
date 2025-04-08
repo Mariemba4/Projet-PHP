@@ -1,0 +1,30 @@
+.form-floating {
+    position: relative;
+}
+
+.form-floating .bi {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    color: #6c757d;
+}
+
+.form-floating label {
+    padding-left: 2.5rem;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+    padding-left: 2.8rem;
+}
+
+.invalid-feedback {
+    padding-left: 2.8rem;
+}
+
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
